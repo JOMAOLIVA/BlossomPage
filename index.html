@@ -1,82 +1,363 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Moleminer by JOMAOLIVA</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mole Miner</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
 
-  </head>
-  <body>
+		
+		<!-- skin -->
+		<link rel="stylesheet" href="skin/default.css">
+ 	<script src="js/jquery.min.js"></script>
 
-      <header>
-        <h1>Moleminer</h1>
-        <p></p>
-      </header>
+<!-- Preloader --><script type="text/javascript">// <![CDATA[
+$(window).load(function() { $("#spinner").fadeOut("slow"); })
+// ]]>
+</script>
+    </head>
+	 
+    <body>
+    <div id="spinner">Loading..</div>
+   
+		<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,1);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">Mole Miner
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#section-works">How it works</a></li>
+						<li><a href="#section-about">About</a></li>
+						<li><a href="#section-contact">Contact</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
 
-      <div id="banner">
-        <span id="logo"></span>
+		<div class="teaser2" >
+ 					 <div id="block" style="width: 100%; height:750px;" data-vide-bg="video/molino" data-vide-options="position: 0% 50%">
+ 					
 
-        <a href="https://github.com/JOMAOLIVA/MoleMiner" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/JOMAOLIVA/MoleMiner/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/JOMAOLIVA/MoleMiner/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+   		 <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+                <div class="carousel-caption">
+              <br/>
+                     <br/> <strong> <p> The capability of Mole Miner for volumes to manage vast amounts of data, in or out of the Cloud, with validation and verification.</p> </strong> 
+                </div>
+            </div>
+            <div class="item active">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                <div class="carousel-caption">
+					<img src="img/logo.png" alt="" />
+					<br/> <strong> <p> "Miner Mole" acquires a crucial role for efficiency in the mining industry, “provide Better Productivity  (same throughput at lower cost) with existing assets”  to support decision making in high-impact business with a high volume of transactions and complex commercial dynamics.</p> </strong> 
+						
+                </div>
+            </div>
+            <div class="item">
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/JOMAOLIVA">JOMAOLIVA</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+                <div class="carousel-caption">
+              <br/>
+                     <br/> <strong> <p>Mole Miner is able to answer complex questions in a simple way thanks to highly sophisticated analytics engine that is able to correlate information at the level of individual transactions.</p> </strong> 
+                </div>
+            </div>
+            
+       
+     </div>
+     <a  class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="fa fa-chevron-circle-left fa-3x"></span> </a>
+    <a  class="right carousel-control" href="#myCarousel" data-slide="next"><span class="fa fa-chevron-circle-right fa-3x"></span> </a>
     
-  </body>
+
+
+
+
+ 					 </div>
+</div>
+
+		</div>
+
+	
+		<!-- spacer section:parallax1 -->
+		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+			<div class="container">
+            <div class="align-center pad-top40 pad-bot40">
+                <blockquote class="bigquote color-white">A software that acquires a crucial role for efficiency in the mining industry</blockquote>
+				<p class="color-white"> “Provide Better Productivity  (same throughput at lower cost) with existing assets” </p>
+            </div>
+			</div>	
+		</section>
+		
+	
+		<section id="section-works" class="section appear clearfix">
+       	<div class="row mar-bot40">
+			<div class="col-md-offset-3 col-md-6">
+				<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">How it works</h2>
+							
+							
+                                	<!-- /.container
+							    <div class="thumbnail center-block ">
+          						<img class="img-rounded"  src="img/works.jpg" >
+                			 </div> -->
+						</div>
+
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+            <br/>
+            <br/>
+
+              	  <div class="col-lg-6 col-md-6 col-sm-6">
+       
+                		<span>A software that acquires a crucial role for efficiency in the mining industry, “provide Better Productivity  (same throughput at lower cost) with existing assets”. 
+Creating value with Big Data techniques and Physical models can be used  to improvement the behavior and performance of grinding circuits in order to save energy.</span>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+
+                	   <article isotopeItem webdesign">
+									<div >
+									      
+                       					 <div style="width:200px;height:200px" class="thumbnail center-block ">
+ 											<img class="img-rounded"  src="img/works.jpg" >
+                  						</div>
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="img/works.jpg" class="fancybox"><span class="fa fa-plus"/>
+												Click..</a></h5>
+												
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+            	</div>
+            
+		
+						
+			</div>
+			
+        
+		     <br/>
+            <br/>		
+            	<div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-file"></i> Data Base</h3>
+                    <p>The platform Mole Miner database is designed to efficiently process transactions billion.</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-cogs"></i> Big Data</h3>
+                    <p>The platform Mole Miner uses big data that offers major improvements over its predecessor in analytics, traditional business intelligence (BI).</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-edit"></i> Reporting</h3>
+                    <p>Is able to produce reports tailored to each user and send them periodically and automatically..</p>
+                </div>
+            </div>
+    
+           	 	<div class="row">
+            <br/>
+            <br/>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2>Key Metrics:</h2>
+                    
+                    <ul>
+                        <li>Savings with fewer equipment failures</li>
+                        <li>higher throughput</li>
+                        <li>reduced flow variations</li>
+                        <li>increased consistency of feed rates</li>
+                        <li>Optimize the Process for Break-through Performance</li>
+                        <li>Prevent Failure and Maintain Optimal Equipment Performance</li>
+                        <li>Use Predictive Analytics to Monitor Performance and Prevent Surprises</li>
+                        <li>Continuous Monitoring & Regular Tuning</li>
+                    </ul>
+                <span>It is interesting to see the effect of the design parameters, kinetics of grinding, separation efficiency and the effect of the sump/pump in the overall optimization of the circuit. These circuits consume large amount of energy. They need to operate at high effectiveness in terms of equipment availability, energy efficiency and water consumption.</span>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                	<img src="img/circuls.png"/>
+                </div>
+            </div>
+            
+            	<br/>
+            	<br/>
+        
+           		<div class="row">
+               	 	<div class="col-lg-6 col-md-6 col-sm-6">
+                    	<h2>Dashboard:</h2>
+                    	<span>The display of information is done through web access with a simple display that hopes to answer as many questions of business in the least amount of screens. 
+                    	<span/>
+						<br/>
+						<span> The information is available on different technological platforms, both web and mobile.<span/>
+                    
+        			</div>
+        		 <div class="col-lg-6 col-md-6 col-sm-6">
+                	<img src="img/pantallas.png"/>
+                </div>
+       
+    		   </div>
+    	
+	    </section>
+	 <!-- spacer section:stats -->	
+		<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
+            <div class="align-right pad-top40 pad-bot40">
+        
+			            
+            </div>
+		</section>
+
+
+		<!-- about -->
+		<section id="section-about" class="section appear clearfix">
+		<div class="center">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+						</div>
+					</div>
+				</div>
+
+					<div class="row align-left mar-bot40">
+				
+						<div class=" align-center col-md-3">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/member1.jpg" alt="" /></figure>
+								<div class="team-detail">
+									<h4>Mario León Gatica</h4>
+									<span>Chief Operations Office</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/member2.jpg" alt="" /></figure>
+								<div class="team-detail">
+									<h4>José Mario Oliva</h4>
+									<span>Chief Executive Operations</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/member3.jpg" alt="" /></figure>
+								<div class="team-detail">
+								<h4>Marel Josue Oliva</h4>
+									<span>Chief Technical Office</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+					
+						</div>
+			
+					</div>
+						
+		</div>
+		</section>
+		<!-- /about -->
+		
+		
+		<!-- contact -->
+		<section id="section-contact" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp"><a href="mailto:Contacto@gruposa.net"> 
+								<span>Contact us</span></a>
+								</h2>
+						</div>
+					</div>
+				</div>
+			
+				
+			</div>
+		</section>
+ 
+		
+		<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+				<div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
+			</div>
+
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Copyright &copy; 2014 Mole Miner</a></p></div>
+			</div>
+		</div>
+
+	</section>
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+  
+ 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="libs/jquery/jquery-1.11.1.min.js"><\/script>')</script>
+<script src="src/jquery.vide.js"></script>
+<script>
+//    $(document).ready(function () {
+//        $("#block").vide("video/ocean"); // Non declarative initialization
+//
+//        var instance = $("#block").data("vide"); // Get instance
+//        var video = instance.getVideoObject(); // Get video object
+//        instance.destroy(); // Destroy instance
+//    });
+</script>
+
+  
+
+     
+	</body>
 </html>
