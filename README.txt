@@ -1,27 +1,32 @@
-Paradigm Shift by HTML5 UP
+Telephasic by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-Say hello to Paradigm Shift, my first addition to HTML5 UP in more than a year (!!!).
-Took things in a slightly different direction with this one, partly to mess with CSS
-grid (which this one relies on pretty heavily) but mostly to get back to making weirder
-and more experimental designs/layouts. Anyway, hope you dig it, and thanks for the
-continued support despite the lack of updates :)
+This is Telephasic, a brand new site template for HTML5 UP. It features a sharp, modern
+design inspired by omfg everything, and makes good use of SVGs to ensure stuff looks
+nice and crispy on retina displays.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Demo images* are courtesy of Felicia Simion, an amazing photographer with an
+incredible portfolio over at deviantART:
 
-(* = not included)
+http://ineedchemicalx.deviantart.com/
+
+(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
+and/or use any of Felicia's work without her explicit permission!)
+
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
 AJ
 aj@lkn.io | @ajlkn
+
+PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
 Credits:
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		Felicia Simion (ineedchemicalx.deviantart.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
